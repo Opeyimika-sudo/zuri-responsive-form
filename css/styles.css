@@ -59,6 +59,8 @@ main{
     margin-bottom: 20px;
     text-align: center;
     border: 1px solid var(--blue);
+    width: 100%;
+    cursor: pointer;
 }
 
 .hero__form--details{
@@ -66,18 +68,20 @@ main{
     border-radius: 10px;
     padding: 50px 0;
     text-align: center;
+    width: 100%;
 }
 
 #fname, #lname, #email, #password {
     border: 0.5px solid var(--grayish-blue);
     margin-bottom: 10px;
-    padding: 10px 0;
+    padding: 10px 20px;
     border-radius: 5px;
+    width: 80%;
+    cursor: pointer;
 }
 
 ::placeholder{
     color: var(--dark-blue);
-    padding-left: 10px;
 }
 
 .hero__form--details--submit{
@@ -87,8 +91,10 @@ main{
     padding: 10px 30px;
     border: 1px solid var(--green);
     border-radius: 5px;
-    box-shadow: 0 2px 0px var(--dark-blue);
+    box-shadow: 0 2px 0px #056608;
     margin-bottom: 15px;
+    width: 80%;
+    cursor: pointer;
 }
 
 .footer{
@@ -106,5 +112,10 @@ main{
         flex-direction: row;
         align-items: center;
         gap: 50px;
+        padding: 80px 0;
+    }
+
+    main{
+        background-image: url("../images/bg-intro-desktop.png");
     }
 }
